@@ -1,5 +1,5 @@
 # SPL token metadata updater
-This script allow to modify metadata of your SPL token.
+This script allow to modify metadata, name and image of your SPL token.
 With some simple configurations you will be able to give a name to your SPl token and attach an image that will show in Phantom and other Solana wallet.
 
 
