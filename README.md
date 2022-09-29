@@ -2,11 +2,15 @@
 This script allow to modify metadata of your SPL token.
 With some simple configurations you will be able to give a name to your SPl token and attach an image that will show in Phantom and other Solana wallet.
 
+
+
 # How to use it
 
-The repo contains the script and a token_metadata.json file.
-The JSON is self-explanatory, just fill fields with your token data, then upload the file on IPFS, Shadow Drive or similar permanent hosting services.
+The repo contains the script and a "token_metadata.json" file.
+The JSON is self-explanatory, just fill all fields with your token data, then save and upload the file on IPFS, Shadow Drive or similar permanent hosting services.
 In the script, just compile commented fields with all data of your keypair and token.
+
+Current RPC cluster for the script is Devnet, modify the endpoint if you aim to use it for Mainnet.
 
 **CREDITS:**
 The script was created thanks to a great YT [video tutorial](https://www.youtube.com/watch?v=DQbt0-riooo) by https://github.com/loopcreativeandy.
