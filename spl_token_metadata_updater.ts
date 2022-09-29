@@ -45,7 +45,7 @@ async function main(){
     const ix = mpl.createCreateMetadataAccountV2Instruction(accounts, args);
     const tx = new web3.Transaction();
     tx.add(ix);
-    const connection = new web3.Connection("https://api.devnet.solana.com"); //URL of Solana clusetr (Mainnet/Devnet/Testnet)
+    const connection = new web3.Connection("https://api.devnet.solana.com"); //URL of Solana cluster (Switch to Mainnet/Devnet/Testnet)
     const txid = await web3.sendAndConfirmTransaction(connection, tx, [myKeypair]);
     console.log(txid);
     
